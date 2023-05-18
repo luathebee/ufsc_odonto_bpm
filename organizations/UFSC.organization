@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="UFSC">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="ricardo.caldas">
+      <firstName>Ricardo</firstName>
+      <lastName>Caldas</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ciclana.beltrana">
+      <firstName>Ciclana</firstName>
+      <lastName>Beltrana</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="thalisson.saymo">
+      <firstName>Thalisson</firstName>
+      <lastName>Saymo</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User1">
+      <firstName>Daiana</firstName>
+      <lastName>Daiana</lastName>
+      <title>Dai</title>
+      <jobTitle>Dai</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Professor">
+      <displayName>Professor</displayName>
+      <description>Professor do Departamento&#xD;
+</description>
+    </role>
+    <role name="Técnico-Administratvo">
+      <displayName>Técnico-Administratvo</displayName>
+      <description>Técnico Administratativo do Departamento&#xD;
+</description>
+    </role>
+    <role name="Aluno">
+      <displayName>Aluno</displayName>
+      <description>Aluno</description>
+    </role>
+    <role name="Triagem">
+      <displayName>Triagem</displayName>
+    </role>
+    <role name="Chefe de Depeartamento">
+      <displayName>Chefe de Depeartamento</displayName>
+    </role>
+    <role name="Administrador">
+      <displayName>Administrador</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="CCS">
+      <displayName>Centro de Ciências da Saúde</displayName>
+    </group>
+    <group name="Odontologia" parentPath="/CCS">
+      <displayName>Departamento de Odontologia</displayName>
+    </group>
+    <group name="SERCAP" parentPath="/CCS">
+      <displayName>SeRCaP</displayName>
+      <description>Setor de Regulamentação e Captação de Pacientes</description>
+    </group>
+    <group name="ArquivoProntuários" parentPath="/CCS">
+      <displayName>ArquivoProntuários</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>ricardo.caldas</userName>
+      <roleName>Professor</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ciclana.beltrana</userName>
+      <roleName>Aluno</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ricardo.caldas</userName>
+      <roleName>Administrador</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>thalisson.saymo</userName>
+      <roleName>Professor</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>thalisson.saymo</userName>
+      <roleName>Administrador</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>thalisson.saymo</userName>
+      <roleName>Chefe de Depeartamento</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>User1</userName>
+      <roleName>Técnico-Administratvo</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>User1</userName>
+      <roleName>Administrador</roleName>
+      <groupName>Odontologia</groupName>
+      <groupParentPath>/CCS</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
