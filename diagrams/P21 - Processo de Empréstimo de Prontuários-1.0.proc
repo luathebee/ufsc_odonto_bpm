@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
-  <process:MainProcess xmi:id="_sv21YPQ8Ee2ScKpEgNWQug" name="MyDiagram" bonitaModelVersion="7.12.0-004">
+  <process:MainProcess xmi:id="_sv21YPQ8Ee2ScKpEgNWQug" name="P21 - Processo de Empréstimo de Prontuários" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_sv21YfQ8Ee2ScKpEgNWQug" name="P21 - Processo de Empréstimo de Prontuários" displayName="P21">
       <elements xmi:type="process:Lane" xmi:id="_sv21YvQ8Ee2ScKpEgNWQug" name="Arquivos" actor="_GyssMPQ9Ee2ScKpEgNWQug">
         <elements xmi:type="process:StartEvent" xmi:id="_sv21Y_Q8Ee2ScKpEgNWQug" name="Start1" outgoing="_3qblMPQ_Ee2ScKpEgNWQug">
@@ -177,7 +177,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_sC7BcPQ9Ee2ScKpEgNWQug" type="3005" element="_sC5zUPQ9Ee2ScKpEgNWQug" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_sC7BcvQ9Ee2ScKpEgNWQug" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sC7BcfQ9Ee2ScKpEgNWQug" x="572" y="53" width="140" height="70"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sC7BcfQ9Ee2ScKpEgNWQug" x="572" y="63" width="140" height="70"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_RhNn4PQ-Ee2ScKpEgNWQug" type="3005" element="_RhMZwPQ-Ee2ScKpEgNWQug" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_RhNn4vQ-Ee2ScKpEgNWQug" type="5005"/>
@@ -195,7 +195,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_lichlPQ-Ee2ScKpEgNWQug" type="3008" element="_lichkPQ-Ee2ScKpEgNWQug" fontName="Segoe UI">
               <children xmi:type="notation:DecorationNode" xmi:id="_lichlfQ-Ee2ScKpEgNWQug" type="5026" element="_lichkPQ-Ee2ScKpEgNWQug">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_lichlvQ-Ee2ScKpEgNWQug" y="14"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_lichlvQ-Ee2ScKpEgNWQug" y="10"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lichl_Q-Ee2ScKpEgNWQug" x="764" y="210"/>
             </children>
@@ -209,7 +209,7 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_riVAYvQ-Ee2ScKpEgNWQug" type="5020">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_riVAY_Q-Ee2ScKpEgNWQug" y="-59"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riVAYfQ-Ee2ScKpEgNWQug" x="744" y="98"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_riVAYfQ-Ee2ScKpEgNWQug" x="764" y="76"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_sv4DjvQ8Ee2ScKpEgNWQug"/>
@@ -248,7 +248,7 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_u--tdPQ-Ee2ScKpEgNWQug" fontName="Segoe UI"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u--tdfQ-Ee2ScKpEgNWQug" points="[-9, 1, -247, 35]$[217, -32, -21, 2]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u-_7kPQ-Ee2ScKpEgNWQug" id="(1.0,0.6511627906976745)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u-_7kPQ-Ee2ScKpEgNWQug" id="(0.9302325581395349,0.5116279069767442)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u-_7kfQ-Ee2ScKpEgNWQug" id="(0.175,0.5833333333333334)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_veR4kPQ-Ee2ScKpEgNWQug" type="4001" element="_veRRgPQ-Ee2ScKpEgNWQug" source="_riVAYPQ-Ee2ScKpEgNWQug" target="_lichlPQ-Ee2ScKpEgNWQug" roundedBendpointsRadius="10" routing="Rectilinear">
@@ -281,7 +281,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_BumOQPQ_Ee2ScKpEgNWQug" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_BulnMfQ_Ee2ScKpEgNWQug" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BulnMvQ_Ee2ScKpEgNWQug" points="[-14, -6, 219, 80]$[-311, -6, -78, 80]$[-311, -86, -78, 0]$[-254, -86, -21, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BulnMvQ_Ee2ScKpEgNWQug" points="[-14, -22, 260, 109]$[-337, -22, -63, 109]$[-337, -124, -63, 7]$[-280, -124, -6, 7]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BuncYPQ_Ee2ScKpEgNWQug" id="(0.11666666666666667,0.7166666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TJpI0PQ_Ee2ScKpEgNWQug" id="(0.13953488372093023,0.32558139534883723)"/>
     </edges>
