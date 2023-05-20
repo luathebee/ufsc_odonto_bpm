@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
-  <process:MainProcess xmi:id="_sv21YPQ8Ee2ScKpEgNWQug" name="P21 - Processo de Empréstimo de Prontuários" bonitaModelVersion="7.12.0-004">
+  <process:MainProcess xmi:id="_sv21YPQ8Ee2ScKpEgNWQug" name="Modelo - Processo de Empréstimo de Prontuários" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_sv21YfQ8Ee2ScKpEgNWQug" name="P21 - Processo de Empréstimo de Prontuários" displayName="P21">
       <elements xmi:type="process:Lane" xmi:id="_sv21YvQ8Ee2ScKpEgNWQug" name="Arquivos" actor="_GyssMPQ9Ee2ScKpEgNWQug">
         <elements xmi:type="process:StartEvent" xmi:id="_sv21Y_Q8Ee2ScKpEgNWQug" name="Start1" outgoing="_3qblMPQ_Ee2ScKpEgNWQug">
