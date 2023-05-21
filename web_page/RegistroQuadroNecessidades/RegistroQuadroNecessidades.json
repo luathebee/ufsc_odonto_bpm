@@ -1,0 +1,968 @@
+{
+  "modelVersion" : "2.3",
+  "id" : "RegistroQuadroNecessidades",
+  "name" : "RegistroQuadroNecessidades",
+  "lastUpdate" : 1684627100886,
+  "rows" : [
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "cabb38be-9ca4-4e21-a4ac-e4982856dab8",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "73ee0ddf-ac09-42d6-891b-a4da391f1fe6",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "minLength" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "maxLength" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "CPF paciente"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "placeholder" : {
+                    "type" : "interpolation"
+                  },
+                  "value" : {
+                    "type" : "variable"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "text"
+                  },
+                  "min" : {
+                    "type" : "constant"
+                  },
+                  "max" : {
+                    "type" : "constant"
+                  },
+                  "step" : {
+                    "type" : "constant",
+                    "value" : 1
+                  }
+                },
+                "reference" : "29c274af-eda9-49cd-9dc1-94fbbc199709",
+                "hasValidationError" : false,
+                "id" : "pbInput"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 2,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Estomatologia"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "215f0bf2-1f18-4bed-9244-50e6d28feff3",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 3,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : ""
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "availableValues" : {
+                    "type" : "constant",
+                    "value" : [
+                      "Es Ac",
+                      "Es Bio"
+                    ]
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValue" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "750b27b1-2288-4aaa-b878-5045898a9b37",
+                "hasValidationError" : false,
+                "id" : "pbRadioButtons"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 2,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Dentística"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "3717d1c3-dced-4927-acc2-93e8932d50d2",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 3,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "availableValues" : {
+                    "type" : "constant",
+                    "value" : [
+                      "De 1",
+                      "De 2"
+                    ]
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValue" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "383015d7-029d-4fbb-aa25-8381d0ab01fc",
+                "hasValidationError" : false,
+                "id" : "pbRadioButtons"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 2,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Cirurgia"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "1ece2630-142c-4745-be93-a201b7e5e770",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 3,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "availableValues" : {
+                    "type" : "constant",
+                    "value" : [
+                      "Ci 1",
+                      "Ci 2"
+                    ]
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValue" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "c4562022-36e5-4469-ad28-37e19184bbe3",
+                "hasValidationError" : false,
+                "id" : "pbRadioButtons"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 2,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Endodontia"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "533afb7b-1103-4274-8269-d3ba8a19ae22",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 3,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "availableValues" : {
+                    "type" : "constant",
+                    "value" : [
+                      "Em 1",
+                      "Em 2"
+                    ]
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValue" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "040efb6b-a661-48a2-9e15-ad2cd8586375",
+                "hasValidationError" : false,
+                "id" : "pbRadioButtons"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 2,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Periodontia"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "5be28cb5-ec9d-477a-a005-974fcfdb4dab",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 3,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "availableValues" : {
+                    "type" : "constant",
+                    "value" : [
+                      "Pe 0",
+                      "Pe Nt",
+                      "Pe Tr",
+                      "Pe Ci"
+                    ]
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValue" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "5dbe56a6-1d6d-45bb-96f4-1b8c945a5382",
+                "hasValidationError" : false,
+                "id" : "pbRadioButtons"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 2,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Prótese"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  }
+                },
+                "reference" : "c060b18f-6e88-47ee-bb86-96d65e495fa1",
+                "hasValidationError" : false,
+                "id" : "pbText"
+              },
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 3,
+                  "lg" : 3
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "inline" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "availableValues" : {
+                    "type" : "constant",
+                    "value" : [
+                      "PT",
+                      "PPR",
+                      "PTI",
+                      "Placa",
+                      "Fixa"
+                    ]
+                  },
+                  "displayedKey" : {
+                    "type" : "constant"
+                  },
+                  "returnedKey" : {
+                    "type" : "constant"
+                  },
+                  "selectedValue" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "d86ef07a-7d5c-4708-91f4-2c3793d75a24",
+                "hasValidationError" : false,
+                "id" : "pbRadioButtons"
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Registrar quadro"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "success"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataToSend" : {
+                    "type" : "constant"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "dataFromError" : {
+                    "type" : "variable"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant",
+                    "value" : "Last"
+                  },
+                  "valueToAdd" : {
+                    "type" : "constant"
+                  },
+                  "removeItem" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "fac17055-e91a-4acd-97d3-29231ef00d6f",
+                "hasValidationError" : false,
+                "id" : "pbButton"
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "a0eb7201-bcbe-440e-b954-40cf892d8463",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "030ee562-4612-43b8-87d7-c20a818dc04f",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "9c4ec84e-770a-4a29-8864-76a8b610fe19",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
