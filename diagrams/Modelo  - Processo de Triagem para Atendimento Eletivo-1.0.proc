@@ -3,7 +3,7 @@
   <process:MainProcess xmi:id="_S8lbYPWLEe2ScKpEgNWQug" name="Modelo  - Processo de Triagem para Atendimento Eletivo" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_S8lbYfWLEe2ScKpEgNWQug" name="P10 - Processo de Triagem para Atendimento Eletivo">
       <elements xmi:type="process:Lane" xmi:id="_S8lbYvWLEe2ScKpEgNWQug" name="Setor de regência e captação de pacientes" actor="_S8lbe_WLEe2ScKpEgNWQug">
-        <elements xmi:type="process:Task" xmi:id="_S8lbZ_WLEe2ScKpEgNWQug" name="Cadastrar dados do paciente e inseri-lo na fila" outgoing="_WkrhgPdOEe2AK7U24wVdjQ" incoming="_S8lbePWLEe2ScKpEgNWQug" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_S8lbZ_WLEe2ScKpEgNWQug" name="T10 - Cadastrar dados do paciente e inseri-lo na fila" outgoing="_WkrhgPdOEe2AK7U24wVdjQ" incoming="_S8lbePWLEe2ScKpEgNWQug" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_S8lbaPWLEe2ScKpEgNWQug" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_S8lbafWLEe2ScKpEgNWQug" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_S8lbavWLEe2ScKpEgNWQug" name="" content="" returnTypeFixed="true"/>
@@ -28,7 +28,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_WkR44PdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_WkR44vdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="__V9isPdOEe2AK7U24wVdjQ" name="Agendar triagem" outgoing="_DRzGIPdPEe2AK7U24wVdjQ" incoming="_64OzIPdOEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="__V9isPdOEe2AK7U24wVdjQ" name="T12 - Agendar triagem" outgoing="_DRzGIPdPEe2AK7U24wVdjQ" incoming="_64OzIPdOEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_63oWMvdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_63oWMfdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_63oWM_dOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
@@ -43,7 +43,7 @@
           <contract xmi:type="process:Contract" xmi:id="__V-JyPdOEe2AK7U24wVdjQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="__WWkQvdOEe2AK7U24wVdjQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_PICUUPdPEe2AK7U24wVdjQ" name="Remover paciente da lista" outgoing="_rtIFcPdPEe2AK7U24wVdjQ" incoming="_Tg6ZEPdPEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_PICUUPdPEe2AK7U24wVdjQ" name="T30 - Remover paciente da lista" outgoing="_rtIFcPdPEe2AK7U24wVdjQ" incoming="_Tg6ZEPdPEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_M68xsfdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_M68xsPdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_M68xsvdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
@@ -73,7 +73,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_rtD0APdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_rtD0AvdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_zjSJYPdPEe2AK7U24wVdjQ" name="Registrar atendimento no boletim de produção" outgoing="_3xkHsPdPEe2AK7U24wVdjQ" incoming="_iiN1EPdPEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_zjSJYPdPEe2AK7U24wVdjQ" name="T21 - Registrar atendimento no boletim de produção" outgoing="_3xkHsPdPEe2AK7U24wVdjQ" incoming="_iiN1EPdPEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_iiHucfdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_iiHucPdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_iiHucvdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
@@ -110,7 +110,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_J6w-MPdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_J6w-MvdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_dOIsUPdPEe2AK7U24wVdjQ" name="Atender paciente e atualizar o quadro de necessidades" outgoing="_iiN1EPdPEe2AK7U24wVdjQ" incoming="_RtXX0PdPEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_dOIsUPdPEe2AK7U24wVdjQ" name="T20 - Atender paciente e atualizar o quadro de necessidades" outgoing="_iiN1EPdPEe2AK7U24wVdjQ" incoming="_RtXX0PdPEe2AK7U24wVdjQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_RtNm0vdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_RtNm0fdPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_RtNm0_dPEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
@@ -125,7 +125,7 @@
           <contract xmi:type="process:Contract" xmi:id="_dOJTaPdPEe2AK7U24wVdjQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_dOJTa_dPEe2AK7U24wVdjQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:ServiceTask" xmi:id="_MkdH0PdQEe2AK7U24wVdjQ" name="Sortear alunos para próxima equipe de triagem" outgoing="_gQUgYPdOEe2AK7U24wVdjQ" incoming="_rd6aMPdOEe2AK7U24wVdjQ">
+        <elements xmi:type="process:ServiceTask" xmi:id="_MkdH0PdQEe2AK7U24wVdjQ" name="T11 - Sortear alunos para próxima equipe de triagem" outgoing="_gQUgYPdOEe2AK7U24wVdjQ" incoming="_rd6aMPdOEe2AK7U24wVdjQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ZytjwfdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ZytjwPdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_ZytjwvdOEe2AK7U24wVdjQ" name="" content="" returnTypeFixed="true"/>
