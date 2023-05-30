@@ -108,6 +108,12 @@
       <artifactId>postgresql</artifactId>
       <version>42.5.1</version>
     </dependency>
+    <dependency>
+      <groupId>com.company.model</groupId>
+      <artifactId>bdm-client</artifactId>
+      <version>1.0.0</version>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
   <build>
     <pluginManagement>
